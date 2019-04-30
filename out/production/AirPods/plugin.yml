@@ -1,0 +1,21 @@
+name: AirPods
+version: 420.69
+author: Gauns, Ninsto
+main: au.ninsto.airpods.airpods
+api-version: 1.14
+commands:
+  airplay:
+    description: Plays music if you're holding AirPods.
+    usage: "§cUsage: /airplay (music disc) or /airplay"
+  airstop:
+    description: Stops music if you're holding AirPods.
+    usage: "§cUsage: /airstop"
+  aircreate:
+    description: Creates AirPods if you're holding Iron Boots named "Airpods" with an anvil.
+    permission: AirPods.create
+    permission-messsge: "§cYou do not have sufficient permissions!"
+    usage: "§cUsage: /aircreate"
+permissions:
+  AirPods.create:
+    description: Allows you to create AirPods.
+    default: op
